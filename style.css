@@ -1,0 +1,16 @@
+img.gamegif {
+    width: 80%;
+}
+
+.gamediv {
+    text-align: center;
+}
+
+.gamecontent {
+    float: left;
+    width: 100%;
+}
+
+.padheight {
+    margin-top: 100%;
+}
