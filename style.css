@@ -22,3 +22,7 @@ img.gamegif {
 .padheight {
     margin-top: 100%;
 }
+
+footer.page-footer {
+    padding-top: 2px;
+}
