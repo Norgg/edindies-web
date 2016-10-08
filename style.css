@@ -10,6 +10,10 @@ img.gamegif {
     text-align: center;
 }
 
+.games a {
+    color: inherit;
+}
+
 .gamecontent {
     float: left;
     width: 100%;
