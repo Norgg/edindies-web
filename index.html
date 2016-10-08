@@ -3,112 +3,116 @@
     <head>
         <title>edindies - a co-working gamedev meetup</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css" />
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
         <link rel="stylesheet" href="style.css" />
 
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
-        <div class="container ">
-            <div class="row">
-                <div class="col s12">
-                    <h2 class="header light">edindies - gamedev co-working</h2>
+        <main>
+            <div class="container ">
+                <div class="row">
+                    <div class="col s12">
+                        <h2 class="header light">edindies - gamedev co-working</h2>
+                    </div>
+                </div>
+                <div class="row light-blue lighten-5 z-depth-1">
+                    <div class="col s12 m4 light-blue lighten-5">
+                        <h4 class="header light">about</h4>
+                        <div id="description">
+                            <p>
+                            We're an open group of game developers in Edinburgh, meeting up for co-working, playtesting and chat.
+                            </p>
+                            <p>
+                            We meet <b>every Saturday from 2pm in the Summerhall Cafe</b>, everyone welcome, just bring yourself and something to work on, experience optional.
+                            </p>
+                            <p>
+                            You can get in touch by <a href="http://twitter.com/edindies">twitter</a> or <a href="mailto:edindies@norgg.org">email</a>.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col hide-on-small-only m4 blue-grey lighten-4 twitter fill-parent">
+                        <h4 class="header light">tweets</h4>
+                        <a class="twitter-timeline" data-chrome="noheader nofooter transparent" data-height="350" data-dnt="true" href="https://twitter.com/edindies"></a> <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                    <div class="col s12 m4 light-blue lighten-5">
+                        <h4 class="header light">map</h4>
+                        <div id="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d469.756289264132!2d-3.1825376076956404!3d55.93983716199707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c781e4eb45a5%3A0xe70e80791c72a03d!2sSummerhall!5e0!3m2!1sen!2suk!4v1475331004287" height="400" frameborder="0" style="border:0; width:100%;" allowfullscreen></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row light-blue lighten-5">
-                <div class="col s12 m4 light-blue lighten-5">
-                    <h4 class="header light">about</h4>
-                    <div id="description">
-                        <p>
-                        We're an open group of game developers in Edinburgh, meeting up for co-working, playtesting and chat.
-                        </p>
-                        <p>
-                        We meet <b>every Saturday from 2pm in the Summerhall Cafe</b>, everyone welcome, just bring yourself and something to work on, experience optional.
-                        </p>
-                        <p>
-                        You can get in touch by <a href="http://twitter.com/edindies">twitter</a> or <a href="mailto:edindies@norgg.org">email</a>.
-                        </p>
+            <div class="games container">
+                <h4 class="header light">games by people who've been along</h4>
+                <div class="row z-depth-1">
+                    <a href="http://www.preoccupiedgames.com/sixface/">
+                        <div class="col s12 m4 blue-grey lighten-4 hoverable gamediv ">
+                            <h3 class="header light">Six Face</h3>
+                            <p>Preoccupied Games</p>
+                            <div class="gamecontent">
+                                <img class="gamegif" src="img/sixface.gif"/>
+                            </div>
+                            <div class="padheight"></div>
+                        </div>
+                    </a>
+                    <a href="https://catbellgames.itch.io/advance">
+                        <div class="col s12 m4 light-blue lighten-5 hoverable gamediv">
+                            <h3 class="header light">Advance</h3>
+                            <p>Catbell Games</p>
+                            <div class="gamecontent">
+                                <img class="gamegif" src="img/advance.gif"/>
+                            </div>
+                            <div class="padheight"></div>
+                        </div>
+                    </a>
+                    <a href="http://store.steampowered.com/app/497780/">
+                        <div class="col s12 m4 blue-grey lighten-4 hoverable gamediv">
+                            <h3 class="header light">Recursed</h3>
+                            <p>Portponky</p>
+                            <div class="gamecontent">
+                                <img class="gamegif" src="img/recursed.gif"/>
+                            </div>
+                            <div class="padheight"></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="row z-depth-1">
+                    <div class="col hide-on-small-only m4 light-blue lighten-5 hoverable gamediv">
+                        <h3 class="header light">&nbsp;</h3>
+                        <p>&nbsp;</p>
+                        <div class="gamecontent">
+                        </div>
+                        <div class="padheight"></div>
                     </div>
-                </div>
-                <div class="col hide-on-small-only m4 blue-grey lighten-4 twitter">
-                    <div class="padheight"></div>
-                    <h4 class="header light">tweets</h4>
-                    <a class="twitter-timeline" data-chrome="noheader nofooter transparent" data-height="300" data-dnt="true" href="https://twitter.com/edindies">@edindies</a> <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
-                <div class="col s12 m4 light-blue lighten-5">
-                    <h4 class="header light">map</h4>
-                    <div id="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d469.756289264132!2d-3.1825376076956404!3d55.93983716199707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c781e4eb45a5%3A0xe70e80791c72a03d!2sSummerhall!5e0!3m2!1sen!2suk!4v1475331004287" height="300" frameborder="0" style="border:0; width:100%;" allowfullscreen></iframe>
+                    <a href="http://sphereface.com">
+                        <div class="col s12 m4 blue-grey lighten-4 hoverable gamediv">
+                            <h3 class="header light">sphereFACE</h3>
+                            <p>VoxelStorm</p>
+                            <div class="gamecontent">
+                                <img class="gamegif" src="img/sphereface.gif"/>
+                            </div>
+                            <div class="padheight"></div>
+                        </div>
+                    </a>
+                    <div class="col hide-on-small-only m4 light-blue lighten-5 hoverable gamediv">
+                        <h3 class="header light">&nbsp;</h3>
+                        <p>&nbsp;</p>
+                        <div class="gamecontent">
+                        </div>
+                        <div class="padheight"></div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="games container">
-            <h4 class="header light">games by people who've been along</h4>
-            <div class="row">
-                <a href="http://www.preoccupiedgames.com/sixface/">
-                    <div class="col s12 m4 blue-grey lighten-4 hoverable gamediv">
-                        <h3 class="header light">Six Face</h3>
-                        <p>Preoccupied Games</p>
-                        <div class="gamecontent">
-                            <img class="gamegif" src="img/sixface.gif"/>
-                        </div>
-                        <div class="padheight"></div>
-                    </div>
-                </a>
-                <a href="https://catbellgames.itch.io/advance">
-                    <div class="col s12 m4 light-blue lighten-5 hoverable gamediv valign">
-                        <h3 class="header light">Advance</h3>
-                        <p>Catbell Games</p>
-                        <div class="gamecontent">
-                            <img class="gamegif" src="img/advance.gif"/>
-                        </div>
-                        <div class="padheight"></div>
-                    </div>
-                </a>
-                <a href="http://store.steampowered.com/app/497780/">
-                    <div class="col s12 m4 blue-grey lighten-4 hoverable gamediv">
-                        <h3 class="header light">Recursed</h3>
-                        <p>Portponky</p>
-                        <div class="gamecontent">
-                            <img class="gamegif" src="img/recursed.gif"/>
-                        </div>
-                        <div class="padheight"></div>
-                    </div>
-                </a>
-                <div class="col hide-on-small-only m4 light-blue lighten-5 hoverable gamediv">
-                    <h3 class="header light">&nbsp;</h3>
-                    <p>&nbsp;</p>
-                    <div class="gamecontent">
-                    </div>
-                    <div class="padheight"></div>
-                </div>
-                <a href="http://sphereface.com">
-                    <div class="col s12 m4 blue-grey lighten-4 hoverable gamediv">
-                        <h3 class="header light">sphereFACE</h3>
-                        <p>VoxelStorm</p>
-                        <div class="gamecontent">
-                            <img class="gamegif" src="img/sphereface.gif"/>
-                        </div>
-                        <div class="padheight"></div>
-                    </div>
-                </a>
-                <div class="col hide-on-small-only m4 light-blue lighten-5 hoverable gamediv">
-                    <h3 class="header light">&nbsp;</h3>
-                    <p>&nbsp;</p>
-                    <div class="gamecontent">
-                    </div>
-                    <div class="padheight"></div>
-                </div>
-            </div>
-        </div>
+        </main>
         <footer class="page-footer red lighten-4">
             <div class="container">
                 ©2016 edindies, 
                 organised by <a class="black-text" href="http://twitter.com/Norgg">Norgg</a>
             </div>
         </footer>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="index.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
     </body>
 </html>
