@@ -21,7 +21,7 @@ $(function() {
     var bg = 'rgb(' + Math.round(color[0]) + ',' + 
                       Math.round(color[1]) + ',' + 
                       Math.round(color[2]) + ')';
-    $('main').css('background-color', bg);
+    $('body').css('background-color', bg);
     lerpAmount += tickTime/changeTime;
   }, tickTime);
 
