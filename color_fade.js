@@ -7,7 +7,7 @@ function lerpColour(c1, c2, u) {
 }
 
 var lerpAmount = 0.0;
-var changeTime = 10000;
+var changeTime = 50000;
 var tickTime = 100;
 
 var lastColour = [32, 64, 64];
