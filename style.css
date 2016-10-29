@@ -10,16 +10,12 @@ img.logo {
     max-width: 100%;
 }
 
-main {
-    background-color: rgb(32,64,64);
-}
-
 .base-colour {
-    background-color: #C4C2AF;
+    background-color: #e1f5fe;
 }
 
 .highlight-colour {
-    background-color: #A19E85;
+    background-color: #cfd8dc;
 }
 
 .gamediv {

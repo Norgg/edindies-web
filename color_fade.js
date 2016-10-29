@@ -28,7 +28,7 @@ $(function() {
   // Every n seconds change the target colour
   setInterval(function() {
     lastColour = targetColour;
-    targetColour = [Math.random() * 255, Math.random() * 255, Math.random() * 255];
+    targetColour = [Math.random() * 128, Math.random() * 128, Math.random() * 128];
     console.log(targetColour);
     lerpAmount = 0;
   }, changeTime);
