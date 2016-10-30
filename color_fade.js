@@ -9,6 +9,7 @@ function lerpColour(c1, c2, u) {
 var lerpAmount = 0.0;
 var changeTime = 50000;
 var tickTime = 500;
+var lightness = 96;
 
 var lastColour = [32, 64, 64];
 var targetColour = [32, 64, 64];
@@ -28,7 +29,7 @@ $(function() {
   // Every n seconds change the target colour
   setInterval(function() {
     lastColour = targetColour;
-    targetColour = [Math.random() * 128, Math.random() * 128, Math.random() * 128];
+    targetColour = [Math.random() * lightness, Math.random() * lightness, Math.random() * lightness];
     console.log(targetColour);
     lerpAmount = 0;
   }, changeTime);
