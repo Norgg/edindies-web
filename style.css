@@ -6,6 +6,10 @@ img.gamegif {
     width: 80%;
 }
 
+img.gamegif-small {
+	width: 60%;
+}
+
 img.logo {
     max-width: 100%;
 }
@@ -18,21 +22,18 @@ img.logo {
     background-color: #cfd8dc;
 }
 
+.gamerow {
+	display: table;
+}
+
 .gamediv {
     text-align: center;
+	display: table-cell;
+	width: 33%;
 }
 
 .games a {
     color: inherit;
-}
-
-.gamecontent {
-    float: left;
-    width: 100%;
-}
-
-.padheight {
-    margin-top: 100%;
 }
 
 footer.page-footer {
