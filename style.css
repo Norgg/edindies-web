@@ -24,13 +24,13 @@ img.logo {
 
 .gamerow {
     display: table;
-    width: 100%;
+    width: 102%;
 }
 
 .gamediv {
     text-align: center;
     display: table-cell;
-    width: 33%;
+    width: 33.333%;
 }
 
 .games a {
