@@ -7,7 +7,7 @@ img.gamegif {
 }
 
 img.gamegif-small {
-	width: 60%;
+    width: 60%;
 }
 
 img.logo {
@@ -23,13 +23,14 @@ img.logo {
 }
 
 .gamerow {
-	display: table;
+    display: table;
+    width: 100%;
 }
 
 .gamediv {
     text-align: center;
-	display: table-cell;
-	width: 33%;
+    display: table-cell;
+    width: 33%;
 }
 
 .games a {
@@ -38,6 +39,10 @@ img.logo {
 
 footer.page-footer {
     padding-top: 2px;
+}
+
+.padheight {
+    margin-bottom: 20px;
 }
 
 #map {
