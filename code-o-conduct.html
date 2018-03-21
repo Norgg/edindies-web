@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.min.js"></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="row">
+            <div class="col hide-on-med-and-down l2"></div>
+            <div class="col m12 l8 logo-col center-align">
+                <h2 class="header light">
+                    <a href="/">
+                        <img class="logo" src="img/logo.png" alt="edindies"/>
+                    </a>
+                </h2>
+            </div>
+        </div>
+
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col l2"></div>
+                    <div class="col l8 base-colour" id="code"></div>
+                    <div class="col l2"></div>
+                </div>
+            </div>
+        </main>
+        <div id="markdown" class="hide">
+### Code of Conduct
+
+The following rules and guidelines apply to anyone who attends edindies or
+GameDevEd or joins our Discord server.
+
+This is a living document. Like the community itself, it is open to changes. It
+is an attempt to lay down some basic principles that we can all agree upon, so
+that people know their rights and responsibilities.
+
+#### Together, we strive to:
+
+- Have a broad definition of what a game is, who a gamer or player is, and most
+of all who a developer or creator of games is. All sorts deserve to be treated
+equally.
+- Be friendly and welcoming to everyone, regardless of their race, ethnicity,
+culture, religion, national origin, colour, immigration status, social and
+economic class, education level, sexual orientation, gender identity and
+expression, age, size, family status, and mental and physical ability, among
+other things.
+- Be aware of social issues and how they affect our interpersonal
+relationships, and take action to correct for any biases we may have and
+injustices that others face.
+- Encourage those with less experience than ourselves with particular tools,
+rather than scaring them away. Everyone deserves to reach their full game dev
+potential!
+- Be empathetic when our experiences and perspectives differ. Aim to resolve
+disagreements and differing views constructively.
+- Take care with what we say and do, and make amends when we hurt others.
+- In short, dinnae be a dick.
+
+#### We will not:
+- Use violence or make threats of violence.
+- Use sexist, racist, homophobic, transphobic, ableist or otherwise
+discriminatory insults, jokes or other language.
+- Photograph or record anyone at an event without their consent.
+- Make inappropriate physical contact. You should have someone’s consent before
+touching them.
+- Engage in unwelcome sexual attention. This includes, sexualized comments or
+jokes; inappropriate touching, groping, and unwelcomed sexual advances.
+- Intimidate or stalk.
+
+Every member of the community is a potential representative of the community,
+and should try to follow these principles in all their public interactions,
+online or offline.  
+
+People who do not act in accordance with these principles will be asked to not
+attend our meetups, and will be removed from the Discord.
+
+If you experience or witness unacceptable behaviour, or have any other
+concerns, please get in touch with any of our community moderators:
+
+- Rachel (CONTACT INFO)
+- John (CONTACT INFO)
+- Robby (CONTACT INFO)
+
+All reports will be handled with discretion.
+
+Thanks for making it all the way to the end of this, the Edinburgh Game Dev
+Code of Conduct. You're good!
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+        <script src="index.js"></script>
+        <script>
+            var markdown = $("#markdown").text()
+            var converter = new showdown.Converter();
+            var html = converter.makeHtml(markdown);
+            $('#code').html(html);
+            $('ul').addClass('collection');
+            $('li').addClass('collection-item');
+        </script>
+    </body>
+</html>

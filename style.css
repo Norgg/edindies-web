@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(32, 64, 64);
+}
+
 #description {
     font-size: 1.3em;
 }
